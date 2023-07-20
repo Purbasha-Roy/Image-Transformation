@@ -1,0 +1,683 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.4.1
+# Built for Windows32
+# Copyright (C) 1988-2023 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jul 20 22:49:57 2023
+
+# Variables
+
+# makefile (from 'uiuc/make/uiuc.mk', line 26)
+STDLIBVERSION = $(STDLIBVERSION_GNU)
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\Purbasha Roy
+# environment
+LOCALAPPDATA = C:\Users\Purbasha Roy\AppData\Local
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = C:\Users\Purbasha Roy\AppData\Local\Programs\Microsoft VS Code
+# makefile (from 'Makefile', line 6)
+EXE_OBJ = main.o
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'uiuc/make/uiuc.mk', line 19)
+CXX_WHICH = $(CXX_GNU)
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# environment
+ MGLS_LICENSE_FILE = 1717@14.139.1.122
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# makefile (from 'Makefile', line 10)
+CLEAN_RM = out-*.png
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_40828_DRVYLQXDKMEGHMMQ
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Purbasha Roy\AppData\Roaming\Code\CachedData\74f6148eb9ea00507ec113ec51c489d6ffb4b771
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\PURBAS~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS := .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Purbasha Roy\OneDrive
+# makefile (from 'uiuc/make/uiuc.mk', line 2)
+COLLECTED_FILES = uiuc/HSLAPixel.h uiuc/HSLAPixel.cpp ImageTransform.h ImageTransform.cpp
+# makefile
+CURDIR := c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++
+# environment
+LM_LICENSE_FILE = 1717@14.139.1.122
+# makefile (from 'uiuc/make/uiuc.mk', line 13)
+CPP_TEST = $(wildcard tests/*.cpp) uiuc/catch/catchmain.cpp
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# 
+ automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from '.objs/tests/part2.d', line 1)
+MAKEFILE_LIST := Makefile uiuc/make/uiuc.mk .objs/ImageTransform.d .objs/main.d .objs/uiuc/HSLAPixel.d .objs/uiuc/PNG.d .objs/uiuc/catch/catchmain.d .objs/uiuc/lodepng/lodepng.d .objs/tests/part1.d .objs/tests/part2.d
+# automatic
+@F = $(notdir $@)
+# makefile (from 'uiuc/make/uiuc.mk', line 27)
+WARNINGS = -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable
+# environment
+VSCODE_PID = 40828
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+ONLINESERVICES = Online Services
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+BUILDLABEX = 22621.1.amd64fre.ni_release.220506-1250
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-in","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\Purbasha Roy\OneDrive
+# default
+MAKE_HOST := Windows32
+# makefile (from 'uiuc/make/uiuc.mk', line 5)
+OBJS = main.o ImageTransform.o uiuc/HSLAPixel.o uiuc/PNG.o uiuc/lodepng/lodepng.o
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\Purbasha Roy
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# makefile (from 'uiuc/make/uiuc.mk', line 17)
+CXX_CLANG = clang++
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Users\Purbasha Roy\AppData\Local\Programs\Python\Python311;C:\Users\Purbasha Roy\AppData\Local\Programs\Python\Python311\Scripts;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Purbasha Roy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Purbasha Roy\AppData\Local\Programs\Python\Python311\;C:\Users\Purbasha Roy\AppData\Local\Microsoft\WindowsApps;C:\questasim64_2019.4\win64;C:\Users\Purbasha Roy\AppData\Roaming\npm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.10\IDLE (Python 3.10 64-bit).lnk;C:\Program Files\Python310\python.exe;C:\Users\Purbasha Roy\AppData\Local\Programs\Microsoft VS Code\bin
+# environment
+ZES_ENABLE_SYSMAN = 1
+# makefile (from 'uiuc/make/uiuc.mk', line 23)
+STDVERSION = -std=c++14 
+# environment
+COMPUTERNAME = DESKTOP-JDV5BQ3
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# makefile (from 'uiuc/make/uiuc.mk', line 1)
+ZIP_FILE = ImageTransform_submission.zip
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133342337097453165
+# environment
+EFC_29832 = 1
+# environment
+LOGONSERVER = \\DESKTOP-JDV5BQ3
+# environment
+USERNAME = Purbasha Roy
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from 'uiuc/make/uiuc.mk', line 18)
+CXX_GNU = g++
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 3)
+TEST = test
+# environment
+USERDOMAIN = DESKTOP-JDV5BQ3
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'uiuc/make/uiuc.mk', line 24)
+STDLIBVERSION_CLANG = -stdlib=libc++ 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 2)
+EXE = ImageTransform
+# makefile
+.DEFAULT_GOAL := ImageTransform
+# default
+MAKE_VERSION := 4.4.1
+# environment
+PLATFORMCODE = KV
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'uiuc/make/uiuc.mk', line 29)
+LDFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -mthreads
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-JDV5BQ3
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from 'uiuc/make/uiuc.mk', line 8)
+OBJS_DIR = .objs
+# environment
+BUILDLAB = 22621.ni_release.220506-1250
+# environment
+APPDATA = C:\Users\Purbasha Roy\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\PURBAS~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\df7376c7a17f7259a9e3a6fc4f527fd3-1.80.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'uiuc/make/uiuc.mk', line 21)
+LD = $(CXX_WHICH)
+# environment
+SESSIONNAME = Console
+# makefile (from 'uiuc/make/uiuc.mk', line 28)
+CXXFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -g -O0 $(WARNINGS) -MMD -MP -msse2 -c
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs notintermediate shell-export archives jobserver output-sync load dospaths
+# environment
+REGIONCODE = APJ
+# environment
+PROCESSOR_REVISION = 8e0c
+# makefile (from 'uiuc/make/uiuc.mk', line 20)
+CXX = $(CXX_WHICH)
+# makefile (from 'uiuc/make/uiuc.mk', line 25)
+STDLIBVERSION_GNU = 
+# makefile (from 'uiuc/make/uiuc.mk', line 30)
+ASANFLAGS = -fsanitize=address -fno-omit-frame-pointer
+# makefile (from 'uiuc/make/uiuc.mk', line 14)
+OBJS_TEST = $(filter-out $(EXE_OBJ), $(OBJS)) $(CPP_TEST:.cpp=.o)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# variable set hash-table stats:
+# Load=123/1024=12%, Rehash=0, Collisions=15/208=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# .objs/uiuc (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs/uiuc, mtime 1689844589): 8 files, no impossibilities.
+# uiuc (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/uiuc, mtime 1689844484): No files, no impossibilities so far.
+# . (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++, mtime 1689872481): 16 files, no impossibilities.
+# .objs/uiuc/lodepng (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs/uiuc/lodepng, mtime 1689841096): 4 files, no impossibilities.
+# .objs/tests (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs/tests, mtime 1689844525): 6 files, no impossibilities.
+# uiuc/lodepng (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/uiuc/lodepng, mtime 1689679870): No files, no impossibilities so far.
+# tests (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/tests, mtime 1689753645): 4 files, no impossibilities.
+# .objs (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs, mtime 1689841640): 8 files, no impossibilities.
+# .objs/uiuc/catch (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs/uiuc/catch, mtime 1689844620): 4 files, no impossibilities.
+
+# 50 files, no impossibilities in 9 directories.
+
+# Implicit Rules
+
+.objs/%.o: %.cpp | .objs
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 52):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+.objs/uiuc/lodepng/lodepng.d:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:48:16
+#  File has been updated.
+#  Successfully updated.
+
+tests/../uiuc/HSLAPixel.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.objs/uiuc/catch/catchmain.d:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 14:47:00
+#  File has been updated.
+#  Successfully updated.
+
+ImageTransform.h:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-19 01:19:13
+#  File has been updated.
+#  Successfully updated.
+
+.objs/uiuc/HSLAPixel.o: uiuc/HSLAPixel.cpp uiuc/HSLAPixel.cpp uiuc/HSLAPixel.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'uiuc/HSLAPixel'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:46:05
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 52):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# Not a target:
+.objs/uiuc/HSLAPixel.d:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:46:04
+#  File has been updated.
+#  Successfully updated.
+
+.objs/tests/part1.o: tests/part1.cpp tests/../uiuc/catch/catch.hpp tests/../ImageTransform.h tests/../uiuc/PNG.h tests/../uiuc/HSLAPixel.h
+#  Implicit rule search has not been done.
+#  Modi 
+fication time never checked.
+#  File has not been updated.
+
+ImageTransform: .objs/main.o .objs/ImageTransform.o .objs/uiuc/HSLAPixel.o .objs/uiuc/PNG.o .objs/uiuc/lodepng/lodepng.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := ImageTransform
+# automatic
+# * := 
+# automatic
+# < := .objs/main.o
+# automatic
+# + := .objs/main.o .objs/ImageTransform.o .objs/uiuc/HSLAPixel.o .objs/uiuc/PNG.o .objs/uiuc/lodepng/lodepng.o
+# automatic
+# % := 
+# automatic
+# ^ := .objs/main.o .objs/ImageTransform.o .objs/uiuc/HSLAPixel.o .objs/uiuc/PNG.o .objs/uiuc/lodepng/lodepng.o
+# automatic
+# ? := .objs/main.o .objs/ImageTransform.o .objs/uiuc/HSLAPixel.o .objs/uiuc/PNG.o .objs/uiuc/lodepng/lodepng.o
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=8/22=36%
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 34):
+	$(LD) $^ $(LDFLAGS) -o $@
+	@echo ""
+	@echo " Built the main executable program file for the project: " $(EXE)
+	@echo " (Make sure you try \"make test\" too!)"
+	@echo ""
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:43:51
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+uiuc/PNG.cpp:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:47:03
+#  File has been updated.
+#  Successfully updated.
+
+tidy: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 76):
+	rm -rf doc
+
+# Not a target:
+.objs/tests/part1.d:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 14:45:24
+#  File has been updated.
+#  Successfully updated.
+
+tests/../ImageTransform.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 73):
+	rm -rf $(EXE) $(TEST) $(OBJS_DIR) $(CLEAN_RM) $(ZIP_FILE)
+
+tests/../uiuc/catch/catch.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.objs/uiuc/lodepng/lodepng.o: uiuc/lodepng/lodepng.cpp uiuc/lodepng/lodepng.cpp uiuc/lodepng/lodepng.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'uiuc/lodepng/lodepng'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:48:17
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 52):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+.objs/tests/part2.o: tests/part2.cpp tests/../uiuc/catch/catch.hpp tests/../ImageTransform.h tests/../uiuc/PNG.h tests/../uiuc/HSLAPixel.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ImageTransform.cpp:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-19 13:17:25
+#  File has been updated.
+#  Successfully updated.
+
+uiuc/PNG.h:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-18 21:58:40
+#  File has been updated.
+#  Successfully updated.
+
+uiuc/lodepng/lodepng.h:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-18 17:01:45
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+uiuc/lodepng/lodepng.cpp:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-18 17:02:51
+#  File has been updated.
+#  Successfully updated.
+
+.objs:
+#  Implicit rule search has not been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:57:20
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 45):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(OBJS_DIR)/uiuc
+	@mkdir -p $(OBJS_DIR)/uiuc/catch
+	@mkdir -p $(OBJS_DIR)/uiuc/lodepng
+	@mkdir -p $(OBJS_DIR)/tests
+
+.objs/uiuc/PNG.o: uiuc/PNG.cpp uiuc/PNG.cpp uiuc/lodepng/lodepng.h uiuc/HSLAPixel.h uiuc/PNG.h uiuc/RGB_HSL.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'uiuc/PNG'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:47:09
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 52):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: ImageTransform test
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/12=0%
+
+.objs/uiuc/catch/catchmain.o: uiuc/catch/catchmain.cpp uiuc/catch/catch.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+uiuc/HSLAPixel.cpp:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:40:21
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.objs/main.d:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-19 16:11:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-19 13:22:57
+#  File has been updated.
+#  Successfully updated.
+
+zip:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 79):
+	@echo "!!! Preparing submission zip ..."
+	@echo "!!! Make sure you have already tried compiling and testing your code throughly"
+	@echo ""
+	@echo "Removing any previous version of zip file..."
+	rm -rf $(ZIP_FILE)
+	@echo "Creating new file..."
+	zip $(ZIP_FILE) $(COLLECTED_FILES)
+	@echo "Created zip file: " $(ZIP_FILE)
+
+tests/../uiuc/PNG.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/part2.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.objs/tests/part2.d:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 14:45:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.objs/ImageTransform.d:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-19 16:11:37
+#  File has been updated.
+#  Successfully updated.
+
+test: .objs/ImageTransform.o .objs/uiuc/HSLAPixel.o .objs/uiuc/PNG.o .objs/uiuc/lodepng/lodepng.o .objs/tests/part1.o .objs/tests/part2.o .objs/uiuc/catch/catchmain.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 56):
+	$(LD) $^ $(LDFLAGS) -o $@
+	@echo ""
+	@echo " Built the test suite program: " $(TEST)
+	@echo ""
+
+uiuc/HSLAPixel.h:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-18 01:33:39
+#  File has been updated.
+#  Successfully updated.
+
+uiuc/RGB_HSL.h:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-18 16:45:50
+#  File has been updated.
+#  Successfully updated.
+
+uiuc/catch/catch.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tests/part1.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+uiuc/make/uiuc.mk:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:54:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all tidy clean zip
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.objs/uiuc/PNG.d:
+#  Implicit rule search has been done.
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-20 13:47:09
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+uiuc/catch/catchmain.cpp:
+#  Impli 
+cit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.objs/ImageTransform.o: ImageTransform.cpp ImageTransform.cpp uiuc/PNG.h uiuc/HSLAPixel.h ImageTransform.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ImageTransform'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-19 16:11:37
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 52):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+.objs/main.o: main.cpp main.cpp ImageTransform.h uiuc/PNG.h uiuc/HSLAPixel.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  File is secondary (prerequisite of .SECONDARY).
+#  Last modified 2023-07-19 16:11:36
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 52):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# files hash-table stats:
+# Load=46/1024=4%, Rehash=0, Collisions=2/173=1%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 88 / storage = 1209 B / avg = 13 B
+# current buf: size = 8174 B / used = 1209 B / count = 88 / avg = 13 B
+
+# strcache performance: lookups = 238 / hit rate = 63%
+# hash-table stats:
+# Load=88/8192=1%, Rehash=0, Collisions=2/238=1%
+# Finished Make data base on Thu Jul 20 22:49:57 2023
+
+ 
