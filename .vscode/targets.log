@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 20 22:49:57 2023
+# Make data base, printed on Wed Aug 09 10:55:57 2023
 
 # Variables
 
@@ -16,7 +16,8 @@ STDLIBVERSION = $(STDLIBVERSION_GNU)
 SYSTEMDRIVE = C:
 # environment
 LC_ALL = C
-# environment
+# 
+ environment
 USERPROFILE = C:\Users\Purbasha Roy
 # environment
 LOCALAPPDATA = C:\Users\Purbasha Roy\AppData\Local
@@ -45,7 +46,7 @@ CLEAN_RM = out-*.png
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_40828_DRVYLQXDKMEGHMMQ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_9560_HXHQKTSZDXNDYASL
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -82,8 +83,7 @@ LM_LICENSE_FILE = 1717@14.139.1.122
 CPP_TEST = $(wildcard tests/*.cpp) uiuc/catch/catchmain.cpp
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# 
- automatic
+# automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
 PROGRAMFILES = C:\Program Files (x86)
@@ -102,7 +102,7 @@ MAKEFILE_LIST := Makefile uiuc/make/uiuc.mk .objs/ImageTransform.d .objs/main.d 
 # makefile (from 'uiuc/make/uiuc.mk', line 27)
 WARNINGS = -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable
 # environment
-VSCODE_PID = 40828
+VSCODE_PID = 9560
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -111,8 +111,6 @@ ONLINESERVICES = Online Services
 *F = $(notdir $*)
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
-# environment
-BUILDLABEX = 22621.1.amd64fre.ni_release.220506-1250
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-in","availableLanguages":{},"_languagePackSupport":true}
 # environment
@@ -160,11 +158,11 @@ PROMPT = $P$G
 # environment
 CHOCOLATEYLASTPATHUPDATE = 133342337097453165
 # environment
-EFC_29832 = 1
-# environment
 LOGONSERVER = \\DESKTOP-JDV5BQ3
 # environment
 USERNAME = Purbasha Roy
+# environment
+EFC_27220 = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
@@ -210,8 +208,6 @@ PUBLIC = C:\Users\Public
 # makefile (from 'uiuc/make/uiuc.mk', line 8)
 OBJS_DIR = .objs
 # environment
-BUILDLAB = 22621.ni_release.220506-1250
-# environment
 APPDATA = C:\Users\Purbasha Roy\AppData\Roaming
 # environment
 HOMEDRIVE = C:
@@ -251,14 +247,15 @@ PROCESSOR_REVISION = 8e0c
 CXX = $(CXX_WHICH)
 # makefile (from 'uiuc/make/uiuc.mk', line 25)
 STDLIBVERSION_GNU = 
-# makefile (from 'uiuc/make/uiuc.mk', line 30)
+# make 
+file (from 'uiuc/make/uiuc.mk', line 30)
 ASANFLAGS = -fsanitize=address -fno-omit-frame-pointer
 # makefile (from 'uiuc/make/uiuc.mk', line 14)
 OBJS_TEST = $(filter-out $(EXE_OBJ), $(OBJS)) $(CPP_TEST:.cpp=.o)
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
 # variable set hash-table stats:
-# Load=123/1024=12%, Rehash=0, Collisions=15/208=7%
+# Load=121/1024=12%, Rehash=0, Collisions=15/206=7%
 
 # Pattern-specific Variable Values
 
@@ -268,7 +265,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
 
 # .objs/uiuc (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs/uiuc, mtime 1689844589): 8 files, no impossibilities.
 # uiuc (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/uiuc, mtime 1689844484): No files, no impossibilities so far.
-# . (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++, mtime 1689872481): 16 files, no impossibilities.
+# . (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++, mtime 1689874914): 19 files, no impossibilities.
 # .objs/uiuc/lodepng (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs/uiuc/lodepng, mtime 1689841096): 4 files, no impossibilities.
 # .objs/tests (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs/tests, mtime 1689844525): 6 files, no impossibilities.
 # uiuc/lodepng (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/uiuc/lodepng, mtime 1689679870): No files, no impossibilities so far.
@@ -276,7 +273,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
 # .objs (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs, mtime 1689841640): 8 files, no impossibilities.
 # .objs/uiuc/catch (key c:/Users/Purbasha Roy/OneDrive/Desktop/Project C++/.objs/uiuc/catch, mtime 1689844620): 4 files, no impossibilities.
 
-# 50 files, no impossibilities in 9 directories.
+# 53 files, no impossibilities in 9 directories.
 
 # Implicit Rules
 
@@ -335,8 +332,7 @@ ImageTransform.h:
 
 .objs/tests/part1.o: tests/part1.cpp tests/../uiuc/catch/catch.hpp tests/../ImageTransform.h tests/../uiuc/PNG.h tests/../uiuc/HSLAPixel.h
 #  Implicit rule search has not been done.
-#  Modi 
-fication time never checked.
+#  Modification time never checked.
 #  File has not been updated.
 
 ImageTransform: .objs/main.o .objs/ImageTransform.o .objs/uiuc/HSLAPixel.o .objs/uiuc/PNG.o .objs/uiuc/lodepng/lodepng.o
@@ -421,7 +417,8 @@ tests/../uiuc/catch/catch.hpp:
 #  File has not been updated.
 
 .objs/uiuc/lodepng/lodepng.o: uiuc/lodepng/lodepng.cpp uiuc/lodepng/lodepng.cpp uiuc/lodepng/lodepng.h | .objs
-#  Implicit rule search has been done.
+#  Implicit rule search h 
+as been done.
 #  Implicit/static pattern stem: 'uiuc/lodepng/lodepng'
 #  File is secondary (prerequisite of .SECONDARY).
 #  Last modified 2023-07-20 13:48:17
@@ -639,8 +636,7 @@ uiuc/make/uiuc.mk:
 
 # Not a target:
 uiuc/catch/catchmain.cpp:
-#  Impli 
-cit rule search has not been done.
+#  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -672,12 +668,13 @@ cit rule search has not been done.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 88 / storage = 1209 B / avg = 13 B
-# current buf: size = 8174 B / used = 1209 B / count = 88 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 91 / storage = 
+ 1232 B / avg = 13 B
+# current buf: size = 8174 B / used = 1232 B / count = 91 / avg = 13 B
 
-# strcache performance: lookups = 238 / hit rate = 63%
+# strcache performance: lookups = 241 / hit rate = 62%
 # hash-table stats:
-# Load=88/8192=1%, Rehash=0, Collisions=2/238=1%
-# Finished Make data base on Thu Jul 20 22:49:57 2023
+# Load=91/8192=1%, Rehash=0, Collisions=2/241=1%
+# Finished Make data base on Wed Aug 09 10:55:57 2023
 
  
